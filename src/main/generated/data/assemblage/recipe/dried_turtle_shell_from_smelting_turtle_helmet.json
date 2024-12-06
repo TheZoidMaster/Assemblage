@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 600,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "minecraft:turtle_helmet"
+  },
+  "result": {
+    "id": "assemblage:dried_turtle_shell"
+  }
+}

@@ -1,37 +1,26 @@
 {
-	"schemaVersion": 1,
-	"id": "assemblage",
-	"version": "${version}",
-	"name": "Assemblage",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/assemblage/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"one.zoid.assemblage.Assemblage"
-		],
-		"fabric-datagen": [
-			"one.zoid.assemblage.AssemblageDataGenerator"
-		]
-	},
-	"mixins": [
-		"assemblage.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.16.9",
-		"minecraft": "~1.21",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+    "schemaVersion": 1,
+    "id": "assemblage",
+    "version": "${version}",
+    "name": "Assemblage",
+    "description": "Simply adds recipes (and intermediate items) for uncraftables.",
+    "authors": ["Zoid"],
+    "contact": {
+        "homepage": "https://modrinth.com/project/assemblage",
+        "sources": "https://github.com/thezoidmaster/assemblage"
+    },
+    "license": "GNU GPL v3",
+    "icon": "assets/assemblage/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": ["one.zoid.assemblage.Assemblage"],
+        "fabric-datagen": ["one.zoid.assemblage.AssemblageDataGenerator"]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.16.9",
+        "minecraft": "~1.21",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
 }
